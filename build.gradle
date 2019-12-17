@@ -1,2 +1,10 @@
-group = "tech.zhaixinyu"
-version = "1.0"
+allprojects {
+    group 'tech.zhaixinyu'
+    version '1.0'
+
+    repositories {
+        maven {
+            url 'https://maven.aliyun.com/repository/public'
+        }
+    }
+}
